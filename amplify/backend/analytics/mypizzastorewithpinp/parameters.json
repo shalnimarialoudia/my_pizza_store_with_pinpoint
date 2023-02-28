@@ -1,0 +1,21 @@
+{
+    "appName": "mypizzastorewithpinp",
+    "roleName": "pinpointLambdaRole9a293d09",
+    "cloudformationPolicyName": "cloudformationPolicy9a293d09",
+    "cloudWatchPolicyName": "cloudWatchPolicy9a293d09",
+    "pinpointPolicyName": "pinpointPolicy9a293d09",
+    "authPolicyName": "pinpoint_amplify_9a293d09",
+    "unauthPolicyName": "pinpoint_amplify_9a293d09",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

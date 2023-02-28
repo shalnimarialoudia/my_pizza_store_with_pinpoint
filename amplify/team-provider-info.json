@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mypizzastorewithpinp-dev-183647-authRole",
+      "UnauthRoleArn": "arn:aws:iam::207811537593:role/amplify-mypizzastorewithpinp-dev-183647-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::207811537593:role/amplify-mypizzastorewithpinp-dev-183647-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-mypizzastorewithpinp-dev-183647-deployment",
+      "UnauthRoleName": "amplify-mypizzastorewithpinp-dev-183647-unauthRole",
+      "StackName": "amplify-mypizzastorewithpinp-dev-183647",
+      "StackId": "arn:aws:cloudformation:us-east-1:207811537593:stack/amplify-mypizzastorewithpinp-dev-183647/c336be60-b768-11ed-add3-0e25707e9791",
+      "AmplifyAppId": "d29bfbk2wn798w"
+    },
+    "categories": {
+      "auth": {
+        "mypizzastorewithpinp7beafa8b": {}
+      }
+    }
+  }
+}

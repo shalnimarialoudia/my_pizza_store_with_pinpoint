@@ -1,0 +1,14 @@
+.store {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.store__body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.store__footer > Button {
+    margin: 0 10px;
+}
